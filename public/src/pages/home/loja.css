@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+   background-color: #d7d7d7;
+    color: #343a40;
+}
+
+
+header {
+    border: 1px solid z
+ 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(40, 4, 248);
+    text-decoration: none;
+}
+
+.subtitulos {
+    display: flex;
+   gap: 355px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+main {
+    padding: 20px;
+   margin-left: 20px;
+}
+
+main h2{
+ 
+    margin-top: 20px;
+}
+
+h2 {
+   margin-bottom: 30px;
+}
+
+.ofertas {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.quadros {
+    display: flex;
+    justify-content: center;
+    margin: 2px 0;
+    gap: 40px;
+}
+
+.quadros, .quadros-pequeno {
+    
+    width: calc(100% - 40px);
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+.quadros.reverse {
+    flex-direction: row-reverse;
+}
+
+.quadro-grande {
+    padding: 15px;
+   background-color: #d7d7d7;
+    
+}
+
+.quadro-pequeno {
+   
+    padding: px;
+    background-color: #d7d7d7;
+    margin-bottom: 50px;
+    
+}
+
+.quadro-grande-img, .quadro-pequeno-img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+   
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
